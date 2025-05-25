@@ -33,6 +33,15 @@ header {
     }
 }
 
+/* Filter */
+.filter {
+  color: #4B5563;
+  border-radius: 10px;
+  background-color:#A5D6A7;
+  border: none;
+  font-weight: bold;
+}
+
 /*style bagian card*/
 .laporan-card {
   border-radius: 20px;
