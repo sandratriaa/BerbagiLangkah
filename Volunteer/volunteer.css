@@ -1,0 +1,124 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #4B5563;
+}
+
+/* Header */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: black;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+.nav-link {
+  font-size: 0.7rem;
+  padding: 0 0.3rem;
+}
+
+.navbar-brand {
+  font-size: 0.9rem;
+}
+
+.profile-icon i {
+  font-size: 1.2rem;
+}
+
+/* Filter */
+.filter {
+  background-color: #A5D6A7;
+  color: #4B5563;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+/* Volunteer Cards */
+.volunteer-card {
+  border-radius: 12px;
+  overflow: hidden;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #A5D6A7;
+}
+
+.volunteer-card .card-title {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #4B5563;
+}
+
+.volunteer-card .card-details {
+  margin-bottom: 1rem;
+}
+
+.daftar {
+  background-color: #4B5563;
+  color: white;
+  border-radius: 10px;
+  padding: 0.4rem 1.5rem;
+  font-weight: 500;
+}
+
+/* Footer Styles */
+footer {
+  margin-top: 3rem;
+  background-color: black;
+}
+
+.footer h5 {
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+footer p {
+  margin-bottom: 0.5rem;
+}
+
+.footer-contact p {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+        
+.copyright {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 30px;
+  color: #ffffff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767.98px) {
+  .nav-link {
+    font-size: 0.7rem;
+    padding: 0 0.3rem;
+  }
+
+  .navbar-brand {
+    font-size: 0.9rem;
+  }
+
+  .profile-icon i {
+    font-size: 1.2rem;
+  }
+
+  .volunteer-card .card-body {
+    padding: 1rem;
+  }
+  
+  .volunteer-card .card-title {
+    font-size: 1.1rem;
+  }
+  
+  .daftar {
+    padding: 0.3rem 1.2rem;
+    font-size: 0.9rem;
+  }
+}
