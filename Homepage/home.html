@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Home</title>
+</head>
+<body>
+    <header><!--bagian header-->
+        <nav class="navbar navbar-dark py-2">
+            <div class="container-fluid d-flex align-items-center justify-content-between">
+                <a class="navbar-brand" href="#">
+                    <img src="logoAsli.svg" alt="Logo" height="40">
+                </a>
+                <ul class="nav mx-auto d-flex gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Volunteer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Donasi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Berita</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Laporan</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">About</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Tata Cara</a></li>
+                            <li><a class="dropdown-item" href="#">Kolaborasi</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="profile-icon">
+                    <a href="#"><i class="bi bi-person-circle text-white fs-4"></i></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <img class="heroImage" src="hero.png" alt=""><!--bagian hero image-->
+    <div class="container-fluid pt-5 pb-5"><!--bagian deskripsi keyword-->
+        <div class="container text-center">
+            <div class="row pt-4 gx-5 gy-4">
+                <div class="col-md-4 col-12">
+                    <div class="border p-3 rounded-4 bg-light shadow-lg square-box mx-auto">
+                        <i class="fa-solid fa-heart-pulse icon"></i>
+                        <h3 class="mt-3">Help</h3>
+                        <p class="deskripsi">Platform bantuan yang mempertemukan relawan dan donatur untuk membantu sesama secara aman dan berdampak nyata</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                   <div class="border p-3 rounded-4 shadow-lg square-box mx-auto box-tengah">
+                        <i class="fa-solid fa-hand-holding-dollar icon"></i>
+                        <h3 class="mt-3">Donation</h3>
+                        <p class="deskripsi">Platform donasi terpercaya yang menghubungkan para dermawan dengan mereka yang membutuhkan. Aman, transparan, dan berdampak nyata.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                   <div class="border p-3 rounded-4 bg-light shadow-lg square-box mx-auto">
+                        <i class="fa-solid fa-handshake-angle icon"></i>
+                        <h3 class="mt-3">Volunteer</h3>
+                        <p class="deskripsi">Platform terpercaya untuk menjadi relawan dan berbagi kebaikan. Bersama kami, setiap aksi sukarela membawa dampak nyata.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 class="text-left ms-4 fw-bold mb-4 d-md-block berita">Berita saat ini</h2><!--bagian judul berita saat ini-->
+    <div class="container-fluid"><!--bagian berita-->
+        <div class="row">
+            <div class="col-md-12">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active "><!--slide 1 bagian berita-->
+                            <div class="carousel-card-wrapper p-3">
+                                <div class="row px-3" >
+                                    <div class="col-12 col-md-4 mb-4">
+                                        <div class="single-box h-100">
+                                            <div class="img-area"><img src="berita1.jpeg" alt="Berita"></div>
+                                            <div class="img-text">
+                                            <p class="deskripsiBerita">Korban Bencana Banjir dan Longsor di Kabupaten Lebak</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4 mb-4 d-none d-md-block">
+                                        <div class="single-box h-100">
+                                            <div class="img-area"><img src="berita2.jpg" alt="Berita"></div>
+                                            <div class="img-text">
+                                            <p class="deskripsiBerita">Banjir di Kabupaten Jember disebabkan oleh Cuaca Ekstrem</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4 mb-4 d-none d-md-block">
+                                        <div class="single-box h-100">
+                                            <div class="img-area"><img src="berita3.webp" alt="Berita"></div>
+                                            <div class="img-text">
+                                            <p class="deskripsiBerita">Gempa Bermagnitudo 4,6 Menggetarkan Sumba Barat Daya NTT</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="carousel-item"><!--slide 2 bagian berita-->
+                            <div class="carousel-card-wrapper p-3">
+                                <div class="row px-3" >
+                                    <div class="col-12 col-md-4 mb-4">
+                                        <div class="single-box h-100">
+                                            <div class="img-area"><img src="berita4.jpg" alt="Berita"></div>
+                                            <div class="img-text">
+                                            <p class="deskripsiBerita">Erupsi Gunung Berapi: Gunung Marapi dan Lewotobi Laki-laki</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 mb-4 d-none d-md-block">
+                                        <div class="single-box h-100">
+                                            <div class="img-area"><img src="berita5.png" alt="Berita"></div>
+                                            <div class="img-text">
+                                            <p class="deskripsiBerita">Kebakaran hutan yang terjadi di Los Angeles (LA), California, Amerika Serikat</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4 mb-4 d-none d-md-block">
+                                        <div class="single-box h-100">
+                                            <div class="img-area"><img src="berita6.jpeg" alt="Berita"></div>
+                                            <div class="img-text">
+                                            <p class="deskripsiBerita">Aceh Dilanda 79 Bencana, Kebakaran Pemukiman Masih Dominan</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <div class="carousel-nav-button">
+                            <i class="bi bi-chevron-left nav-icon"></i>
+                        </div>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <div class="carousel-nav-button">
+                            <i class="bi bi-chevron-right nav-icon"></i>
+                        </div>
+                        <span class="visually-hidden">Next</span>
+                    </button> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="activities-section mb-5">
+        <h2 class="text-left ms-4 fw-bold mb-4 d-md-block">Dokumentasi Kegiatan</h2><!--bagian judul dokumentasi kegiatan-->
+        <div class="row"><!--Bagian dokumentasi kegiatan -->
+            <div class="col-md-12">
+                <div id="activitiesCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner" style="padding: 0 10px;">
+                        <div class="carousel-item active"> <!--Slide 1 bagian dokumentasi kegiatan-->
+                            <div class="row px-3">
+                                <div class="col-12 col-md-4 mb-4">
+                                    <div class="card h-100">
+                                        <img src="dokumentasi1.jpeg" class="card-img-top" alt="Dokumentasi">
+                                        <div class="card-body ">
+                                            <h5 class="card-title">Event Volunteer</h5>
+                                            <p class="card-text">Menjadi bagian dari tim pelaksana kegiatan sosial, seminar, kampanye kesehatan, atau festival budaya. Tugasnya bisa berupa dokumentasi, registrasi, logistik, atau publikasi.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4 mb-4 d-none d-md-block">
+                                    <div class="card h-100">
+                                        <img src="dokumentasi2.png" class="card-img-top" alt="Dokumentasi">   
+                                        <div class="card-body ">
+                                            <h5 class="card-title">Relawan Bencana Alam</h5>
+                                            <p class="card-text">Menjadi relawan di daerah terdampak bencana untuk membantu evakuasi, distribusi logistik, pelayanan kesehatan darurat, hingga pendampingan psikologis bagi korban.</p>
+                                        </div>
+                                    </div>
+                                </div>                               
+                                <div class="col-12 col-md-4 mb-4 d-none d-md-block">
+                                    <div class="card h-100">                                        
+                                        <img src="dokumentasi3.png" class="card-img-top" alt="Dokumentasi">                                              
+                                        <div class="card-body ">
+                                            <h5 class="card-title">Donor Darah</h5>
+                                            <p class="card-text">Kegiatan kemanusiaan untuk membantu Palang Merah atau rumah sakit dalam menyediakan stok darah, dengan melibatkan masyarakat umum sebagai pendonor dan relawan sebagai panitia pelaksana.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item"><!--Slide 2 bagian dokumentasi kegiatan-->
+                            <div class="row px-3">
+                                <div class="col-12 col-md-4 mb-4">
+                                    <div class="card h-100">                                      
+                                        <img src="dokumentasi2.png" class="card-img-top" alt="Dokumentasi">                                              
+                                        <div class="card-body ">
+                                            <h5 class="card-title">Relawan Bencana Alam</h5>
+                                            <p class="card-text">Menjadi relawan di daerah terdampak bencana untuk membantu evakuasi, distribusi logistik, pelayanan kesehatan darurat, hingga pendampingan psikologis bagi korban.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4 mb-4 d-none d-md-block">
+                                    <div class="card h-100">                                              
+                                        <img src="dokumentasi1.jpeg" class="card-img-top" alt="Dokumentasi">                                          
+                                        <div class="card-body ">
+                                            <h5 class="card-title">Event Volunteer</h5>
+                                            <p class="card-text">Menjadi bagian dari tim pelaksana kegiatan sosial, seminar, kampanye kesehatan, atau festival budaya. Tugasnya bisa berupa dokumentasi, registrasi, logistik, atau publikasi.</p>
+                                        </div>
+                                    </div>
+                                </div>                          
+                                <div class="col-12 col-md-4 mb-4 d-none d-md-block">
+                                    <div class="card h-100">                                       
+                                        <img src="dokumentasi3.png" class="card-img-top" alt="Dokumentasi">                                             
+                                        <div class="card-body ">
+                                            <h5 class="card-title">Donor Darah</h5>
+                                            <p class="card-text">Kegiatan kemanusiaan untuk membantu Palang Merah atau rumah sakit dalam menyediakan stok darah, dengan melibatkan masyarakat umum sebagai pendonor dan relawan sebagai panitia pelaksana.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#activitiesCarousel" data-bs-slide="prev">
+                            <div class="carousel-nav-button">
+                                <i class="bi bi-chevron-left nav-icon"></i>
+                            </div>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#activitiesCarousel" data-bs-slide="next">
+                            <div class="carousel-nav-button">
+                                <i class="bi bi-chevron-right nav-icon"></i>
+                            </div>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-section mt-5"><!--Bagian testimoni -->
+            <h2 class="text-left ms-4 fw-bold mb-4">Testimoni</h2><!--bagian judul testimoni-->
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" style="padding: 0 10px;">
+                    <div class="carousel-item active"><!--Slide 1 bagian testimoni-->
+                        <div class="row px-3">
+                            <div class="col-12 col-md-4 mb-4">
+                                <div class="card h-100">
+                                    <div class="card-img-top activity-img-placeholder">
+                                        <i class="person bi bi-person-circle"></i>
+                                        <p class="nama">Pinartika Nasya Meilanty</p>
+                                    </div>
+                                    <div class=" h-100">
+                                        <p class="komentar">"Platform ini benar-benar memudahkan saya untuk terlibat dalam kegiatan sosial. Dari mencari peluang relawan sampai berdonasi, semua bisa dilakukan dalam satu tempat. Sangat inspiratif dan transparan!"</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 mb-4 d-none d-md-block">
+                                <div class="card h-100">
+                                    <div class="card-img-top activity-img-placeholder">
+                                        <i class="person bi bi-person-circle"></i>
+                                        <p class="nama">Sabrina Zahra</p>
+                                    </div>
+                                    <div class="h-100">
+                                    <p class="komentar">"Saya merasa lebih dekat dengan komunitas yang membutuhkan. Lewat platform ini, saya bisa membantu secara nyata—baik dengan tenaga maupun donasi. Terima kasih sudah menjadi jembatan kebaikan!"</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 mb-4 d-none d-md-block">
+                                <div class="card h-100">
+                                    <div class="card-img-top activity-img-placeholder">
+                                        <i class="person bi bi-person-circle"></i>
+                                        <p class="nama">Zahra Nurul Haniyah Anas</p>
+                                    </div>
+                                    <div class=" h-100">
+                                        <p class="komentar">"Bergabung sebagai volunteer di sini memberi saya pengalaman berharga. Akses ke berbagai kegiatan sosial sangat mudah dan informatif. Platform ini benar-benar punya dampak positif untuk masyarakat."</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item"><!--Slide 2 bagian testimoni-->
+                        <div class="row px-3">
+                            <div class="col-12 col-md-4 mb-4">
+                                <div class="card h-100">
+                                    <div class="card-img-top activity-img-placeholder">
+                                        <i class="person bi bi-person-circle"></i>
+                                        <p class="nama">Sandra Triana</p>
+                                    </div>
+                                    <div class=" h-100">
+                                        <p class="komentar">"Fitur donasinya praktis, dan saya bisa melihat langsung ke mana bantuan saya disalurkan. Ini membuat saya percaya dan ingin terus berkontribusi."</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 mb-4 d-none d-md-block">
+                                <div class="card h-100">
+                                    <div class="card-img-top activity-img-placeholder">
+                                        <i class="person bi bi-person-circle"></i>
+                                        <p class="nama">Anonim</p>
+                                    </div>
+                                    <div class=" h-100">
+                                        <p class="komentar">"Platform ini memberi ruang bagi siapa saja yang ingin berbuat baik, sekecil apa pun kontribusinya. Saya merasa setiap aksi yang saya lakukan di sini punya arti besar."</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 mb-4 d-none d-md-block">
+                                <div class="card h-100">
+                                <div class="card-img-top activity-img-placeholder">
+                                        <i class="person bi bi-person-circle"></i>
+                                        <p class="nama">Anonim</p>
+                                    </div>
+                                    <div class="h-100">
+                                        <p class="komentar">"Gabung di platform ini membuat saya sadar bahwa kolaborasi bisa mengubah banyak hal. Baik sebagai relawan maupun donatur, semua terasa mudah, aman, dan berdampak."</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <div class="carousel-nav-button">
+                        <i class="bi bi-chevron-left nav-icon"></i>
+                    </div>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button"  data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <div class="carousel-nav-button">
+                        <i class="bi bi-chevron-right nav-icon"></i>
+                    </div>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="partner-section mt-5"><!--Bagian partners-->
+            <h2 class="text-center fw-bold">Partners</h2><!--Bagian judul partners-->
+            <div class="partner-grid">
+                <div class="partner-logo"><img src="logo2.png" alt="Partner 1"></div>
+                <div class="partner-logo"><img src="logo1.png" alt="Partner 2"></div>
+                <div class="partner-logo"><img src="logo3.png" alt="Partner 3"></div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <button class="lainnya">Lainnya</button>
+        </div>
+    </div>
+    <footer class="text-light mt-5 p-4"><!--Bagian footer-->
+        <div class="container">
+            <div class="row">
+                <div class="col md-6 text-start footer-contact">
+                    <h5 class="fw-bold mb-2">Contact Us</h5>
+                    <p><strong>Email: </strong>berbagilangkah@gmail.com</p>
+                    <p><strong>Phone: </strong>08124567891</p>
+                    <p><strong>Address: </strong>Jl. Jeruk No. 01, Malang, Jawa Timur, Indonesia</p>
+                </div>
+                <div class="col md-6 text-end footer-medsos">
+                    <h5 class="fw-bold mb-2">Social Media</h5>
+                    <a href="">F.A.Q</a><br>
+                    <a href="">News</a><br>
+                    <a href="">Reports</a><br>
+                    <a href="">Terms of Use</a><br>
+                    <a href="">Privacy Policy</a><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="copyright text-center">
+                        © Copyright Berbagi Langkah 2025
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</body>
+</html>
