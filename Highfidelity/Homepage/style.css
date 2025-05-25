@@ -1,0 +1,204 @@
+/*style bagian header*/
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: black;
+}
+.nav {
+  margin: 0 auto;
+}
+.navbar-brand {
+  white-space: nowrap;
+}
+.nav-link {
+  font-size: 0.9rem;
+  padding: 0 0.5rem;
+}
+@media (max-width: 576px) {
+    .nav-link {
+    font-size: 0.7rem;
+    padding: 0 0.3rem;
+    }
+    .navbar-brand {
+    font-size: 0.9rem;
+    }
+    .profile-icon i {
+    font-size: 1.2rem;
+    }
+
+    .footer-links {
+      text-align: left;
+      margin-top: 30px;
+    }
+}
+/*style bagian hero image*/
+.hero{
+  padding: 150px 150px; 
+}
+.heroImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+/*style bagian deskripsi keyword*/
+.square-box { 
+  width: 230px;   
+  height: 230px;  
+  align-items: center;
+}
+h3{
+  color: #4b5563;
+}
+.deskripsi{
+  font-size: 13px;
+  color: #4b5563;
+}
+.icon{
+  font-size: 40px;
+  color: #4b5563;
+}
+.box-tengah{
+  background-color: #A5D6A7;
+  color: white;
+}
+/*style bagian berita saat ini*/
+.berita{
+  margin-top: 40px;
+}
+.img-area {
+  height: 150px;                   
+}
+.img-area img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 15px;
+}
+.deskripsiBerita{
+  text-align: center;
+  font-weight: bold;
+  color: #4b5563;
+}
+.carousel-card-wrapper {
+  background-color: #A5D6A7; 
+  margin-bottom: 50px;
+}
+/*style bagian dokumentasi kegiatan*/
+.card-title{
+  text-align: center;
+}
+.card-text{
+  text-align: justify;  
+  font-size: 15px;
+}
+.card {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+  transition: transform 0.2s;
+}
+.card-body{
+  background-color: #A5D6A7;
+}
+/*style bagian testimoni*/
+.activity-img-placeholder {
+  height: 100px;
+  background-color:#A5D6A7;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  display: flex; 
+  align-items: center;
+}
+.person{
+  font-size: 50px; 
+  margin-right: 10px; 
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+.nama{
+  font-weight: bold; 
+  margin: 0;
+}
+.testi2{
+  display: flex; 
+  align-items: center;
+}
+.komentar{
+  text-align: center;
+  font-size: 15px;
+  padding-top: 10px;
+  color: #4b5563;
+}
+/*style bagian partner*/
+.partner-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, max-content));
+  justify-content: center;
+  gap: 20px; 
+}
+.partner-logo img {
+  width: 100px; 
+  height: auto;
+  object-fit: contain;
+}
+.lainnya {
+  background-color: #a8d5a5; 
+  border: none;
+  padding: 6px 20px;
+  border-radius: 999px; 
+  font-size: 14px;
+  font-weight: 500;
+}
+/*style bagian footer*/
+footer {
+  font-size: 0.9rem;
+  background-color: black;
+}
+footer p {
+  margin-bottom: 0.5rem;
+}
+.footer-contact p {
+  margin-bottom: 8px;
+  font-size: 14px;
+}      
+.copyright {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 30px;
+  color: #ffffff;
+}
+/*style bagian keseluruhan*/
+.activities-section, .testimonial-section {
+  position: relative;
+  padding: 20px 0;
+}
+h2{
+  color: #333;
+  margin-bottom: 30px !important;
+}
+.carousel-nav-button {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.nav-icon {
+  color: #000000;
+}
+.carousel-control-prev, .carousel-control-next {
+  width: 5%;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.wrapper {
+  margin-top: 20px;
+  text-align: center;
+}

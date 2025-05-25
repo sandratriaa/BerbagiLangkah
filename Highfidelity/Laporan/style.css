@@ -1,0 +1,107 @@
+/*style bagian header*/
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: black;
+}
+.nav {
+  margin: 0 auto;
+}
+.navbar-brand {
+  white-space: nowrap;
+}
+.nav-link {
+  font-size: 0.9rem;
+  padding: 0 0.5rem;
+}
+@media (max-width: 576px) {
+    .nav-link {
+    font-size: 0.7rem;
+    padding: 0 0.3rem;
+    }
+    .navbar-brand {
+    font-size: 0.9rem;
+    }
+    .profile-icon i {
+    font-size: 1.2rem;
+    }
+
+    .footer-links {
+      text-align: left;
+      margin-top: 30px;
+    }
+}
+
+/*style bagian card*/
+.laporan-card {
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  transition: transform 0.3s;
+}
+
+.badge {
+  background-color: #CDEAC0;
+  color: #1B4332;             
+  border-radius: 12px;         
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+
+.laporan-card:hover {
+  transform: translateY(-5px);
+}
+
+.img-laporan {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-body {
+  padding: 1.2rem;
+  background-color: #ffffff;
+}
+
+.card-title {
+  font-weight: 700;
+  color: #2D2D2D;
+}
+
+.card-text {
+  color: #444;
+  font-size: 0.95rem;
+}
+
+
+.laporan-card .bi {
+  color: #444;
+  cursor: pointer;
+}
+
+.laporan-card .bi:hover {
+  color: #000;
+}
+
+/*style bagian footer*/
+footer {
+  font-size: 0.9rem;
+  background-color: black;
+}
+footer p {
+  margin-bottom: 0.5rem;
+}
+.footer-contact p {
+  margin-bottom: 8px;
+  font-size: 14px;
+}      
+.copyright {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 30px;
+  color: #ffffff;
+}
